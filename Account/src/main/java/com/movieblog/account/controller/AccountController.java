@@ -1,5 +1,6 @@
 package com.movieblog.account.controller;
 
+import com.movieblog.account.dto.SignInDto;
 import com.movieblog.account.dto.SignUpDto;
 import com.movieblog.account.service.AccountService;
 import jakarta.validation.Valid;
@@ -19,7 +20,7 @@ public class AccountController {
     }
 
     @PostMapping("/sign-in")
-    public void signIn() {
-
+    public void signIn(@Valid @RequestBody SignInDto request) {
+        accountService.signIn(request);
     }
 }

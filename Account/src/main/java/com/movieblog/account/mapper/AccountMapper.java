@@ -10,4 +10,5 @@ public interface AccountMapper {
 
     @Mapping(target = "id", ignore = true)
     User signUpDtoToUser(SignUpDto signUpDto);
+
 }
