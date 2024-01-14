@@ -1,7 +1,7 @@
 package com.movieblog.account.mapper;
 
 import com.movieblog.account.dto.SignUpDto;
-import com.movieblog.account.model.User;
+import com.movieblog.account.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

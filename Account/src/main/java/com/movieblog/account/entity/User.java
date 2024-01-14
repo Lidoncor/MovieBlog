@@ -1,4 +1,4 @@
-package com.movieblog.account.model;
+package com.movieblog.account.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
